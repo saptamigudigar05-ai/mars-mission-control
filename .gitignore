@@ -1,0 +1,22 @@
+# Virtual environments
+venv/
+.venv/
+
+# Firebase secret credentials — NEVER upload
+backend/serviceAccountKey.json
+serviceAccountKey.json
+*.firebase-adminsdk-*.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Django and environment files
+db.sqlite3
+.env
+.env.*
+
+# Editor / system files
+.vscode/
+.idea/
+.DS_Store
